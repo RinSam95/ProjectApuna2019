@@ -1,0 +1,85 @@
+/* Created on : 13.03.2019     Author : A Makers */
+
+body {  
+   background-size: cover;
+   background-color:#FBFCCE;
+}
+
+
+/* change the background color */
+.navbar-custom {
+    background-color: #ff9999;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color:#000000;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color:#000000;
+}
+
+.navbar-font {
+    font-family: 'Staatliches', cursive;
+    font-size:25px;
+}
+ 
+.paaotsikko {
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: #000000;
+    font-size: 110px;
+}
+
+.otsikko {
+    text-align:center;
+    font-size: 55px;
+    font-family: 'Staatliches', cursive;
+    color: #000000;
+}
+
+.kappale {
+    font-family: 'Squada One', cursive;
+    font-size: 25px;
+    margin: 10px 5px 20px 5px;
+    text-align: justify;
+    color: #5b965e;
+    transition: 1s;
+    background-color: transparent;
+ }
+
+.henkilo {
+    font-family: 'Aldrich', sans-serif;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footeri {
+    padding: 5px;
+    color: #5b965e;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+
